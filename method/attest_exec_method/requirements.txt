@@ -1,0 +1,8 @@
+# Attest runtime dependencies.
+# Deliberately minimal: the OpenAI-compatible LLM API is OpenAI-compatible and we call it over
+# plain HTTPS via `requests`, so we do NOT need the `openai` SDK. Java/C++ are
+# driven through subprocess + Docker, not language bindings.
+
+requests>=2.31,<3
+jsonschema>=4.21,<5
+pytest>=8.0,<9

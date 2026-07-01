@@ -1,0 +1,7 @@
+﻿{
+  "schema_version": "attest-selective-gate-policy/v1",
+  "gate_type": "heuristic_override_score",
+  "threshold": 1.49,
+  "selection_objective": "fixed_example_policy",
+  "notes": "Example only. Tune the threshold on the target validation/calibration split before reporting results."
+}

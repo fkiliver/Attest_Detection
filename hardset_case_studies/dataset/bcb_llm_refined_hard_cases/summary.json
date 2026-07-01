@@ -1,0 +1,47 @@
+{
+  "schema_version": "attest-hardset-dataset-summary/v2",
+  "dataset": "BCB-LLM-Refined-HardCases",
+  "source_benchmark": "CodeXGLUE BigCloneBench",
+  "label_policy": "original_bcb_labels_unchanged",
+  "selection_policy": {
+    "source_cases": "misclassifications pooled from clone detectors and audited by LLM",
+    "requires_detector_misclassification": true,
+    "requires_agrees_with_bcb": true,
+    "requires_llm_bcb_style_matches_label": true,
+    "confidence_threshold": 0.85,
+    "include_benchmark_preference_bias": false
+  },
+  "active_balanced_split": {
+    "pairs": 772,
+    "functions": 370,
+    "label_counts": {
+      "0": 386,
+      "1": 386
+    },
+    "files": {
+      "data_jsonl": "data.jsonl",
+      "test_txt": "test.txt",
+      "pairs_jsonl": "pairs.jsonl",
+      "pairs_compact_csv": "pairs_compact.csv",
+      "llm_case_studies_jsonl": "llm_case_studies.jsonl"
+    }
+  },
+  "full_refined_pool": {
+    "pairs": 2973,
+    "functions": 526,
+    "label_counts": {
+      "0": 2587,
+      "1": 386
+    },
+    "directory": "full"
+  },
+  "rejected_audited_cases": {
+    "records": 3577,
+    "file": "rejected_cases.jsonl"
+  },
+  "excluded_from_package": [
+    "generated baseline predictions",
+    "evaluation metrics",
+    "result reports"
+  ]
+}

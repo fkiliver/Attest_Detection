@@ -1,0 +1,36 @@
+{
+  "schema_version": "hardset-selection/v2",
+  "status": "active",
+  "active_dataset": {
+    "name": "BCB-LLM-Refined-HardCases-balanced",
+    "files": {
+      "test": "dataset/bcb_llm_refined_hard_cases/test.txt",
+      "pairs_jsonl": "dataset/bcb_llm_refined_hard_cases/pairs.jsonl",
+      "data_jsonl": "dataset/bcb_llm_refined_hard_cases/data.jsonl",
+      "summary_json": "dataset/bcb_llm_refined_hard_cases/summary.json"
+    },
+    "rows": 772,
+    "label_counts": {
+      "0": 386,
+      "1": 386
+    },
+    "label_policy": "original_bcb_labels_unchanged",
+    "source_benchmark": "CodeXGLUE BigCloneBench",
+    "source_cases": "misclassifications pooled from clone detectors",
+    "selection_policy": {
+      "requires_detector_misclassification": true,
+      "requires_agrees_with_bcb": true,
+      "requires_llm_bcb_style_matches_label": true,
+      "confidence_threshold": 0.85,
+      "include_benchmark_preference_bias": false,
+      "balancing": "all selected positives plus equal number of negatives via deterministic category/route-stratified round-robin"
+    }
+  },
+  "excluded_from_package": [
+    "baseline result tables",
+    "generated predictions",
+    "evaluation metrics",
+    "diagnostic result reports",
+    "checkpoints and large external datasets"
+  ]
+}

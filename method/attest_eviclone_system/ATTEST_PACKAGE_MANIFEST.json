@@ -1,0 +1,340 @@
+{
+    "copied_scripts":  [
+                           "scripts/apply_selective_correction_gate.py",
+                           "scripts/audit_probe_source_retention_outputs.py",
+                           "scripts/build_executable_trace_gap_audit.py",
+                           "scripts/build_probe_execution_manifest_audit.py",
+                           "scripts/build_probe_execution_readiness_audit.py",
+                           "scripts/build_probe_source_retention_rerun_queue.py",
+                           "scripts/build_probe_synthesis_plan.py",
+                           "scripts/build_retained_source_manifest_audit.py",
+                           "scripts/build_runtime_environment_audit.py",
+                           "scripts/build_source_retention_progress_audit.py",
+                           "scripts/build_trace_slice_localization_audit.py",
+                           "scripts/check_probe_source_retention_experiment.py",
+                           "scripts/check_selective_gate_deployment.py",
+                           "scripts/run_error_cases_unordered.py",
+                           "scripts/run_probe_synthesis_execution.py",
+                           "scripts/run_probe_synthesis_full_pipeline.py",
+                           "scripts/run_selective_gate_pipeline.py",
+                           "scripts/verify_probe_source_retention_rerun_queue.py",
+                           "scripts/verify_selective_gate_manifest.py"
+                       ],
+    "entry_scripts":  [
+                          "scripts/build_probe_source_retention_rerun_queue.py",
+                          "scripts/build_probe_synthesis_plan.py",
+                          "scripts/run_error_cases_unordered.py",
+                          "scripts/run_probe_synthesis_full_pipeline.py",
+                          "scripts/run_probe_synthesis_execution.py",
+                          "scripts/build_probe_execution_readiness_audit.py",
+                          "scripts/build_source_retention_progress_audit.py",
+                          "scripts/audit_probe_source_retention_outputs.py",
+                          "scripts/verify_probe_source_retention_rerun_queue.py",
+                          "scripts/check_probe_source_retention_experiment.py",
+                          "scripts/build_retained_source_manifest_audit.py",
+                          "scripts/build_probe_execution_manifest_audit.py",
+                          "scripts/build_runtime_environment_audit.py"
+                      ],
+    "excluded_categories":  [
+                                "real API keys and .env",
+                                "absolute local paths",
+                                "evaluation result JSON/MD files",
+                                "eviclone_runs data and probe execution results",
+                                "case-study source data",
+                                "paper drafts",
+                                "external model weights and datasets",
+                                "full artifact/test evaluation outputs"
+                            ],
+    "files":  [
+                  {
+                      "path":  ".env.example",
+                      "bytes":  101,
+                      "sha256":  "88b21acd8cc31c5092f5c8ab45b3baf89d6cd81fbc933c43a7f75cb61d2e18a5"
+                  },
+                  {
+                      "path":  "docs\\ARCHITECTURE_CN.md",
+                      "bytes":  1148,
+                      "sha256":  "b8a4b5202dec2a8e4ad79d2db28e453196295cb68b7a685b0e7df8160d4654f0"
+                  },
+                  {
+                      "path":  "docs\\REPRODUCTION_INPUTS_CN.md",
+                      "bytes":  479,
+                      "sha256":  "3b7ff84ff05c2a9a5d8ab5cd23b71e93f73fb68a9e194debd13af35be09be553"
+                  },
+                  {
+                      "path":  "docs\\SANITIZATION_CN.md",
+                      "bytes":  805,
+                      "sha256":  "78915e41018259f2b44220c87e5458a5e5ac3426007bc4159b2d7694d6c1cee0"
+                  },
+                  {
+                      "path":  "eviclone_prototype\\__init__.py",
+                      "bytes":  57,
+                      "sha256":  "3cb25057d952b0ef1da8684e02bf98704ee8198701f11b2159642da12d06b415"
+                  },
+                  {
+                      "path":  "eviclone_prototype\\__main__.py",
+                      "bytes":  62,
+                      "sha256":  "c2ee4ddb093c9af060cafaf68219907f8a6b7b301ed3f8bea75db7555adec987"
+                  },
+                  {
+                      "path":  "eviclone_prototype\\adjudication.py",
+                      "bytes":  7381,
+                      "sha256":  "c6f561551ce7bf97d56aa9b58eae530f227bb914364d06ef868ea67ce2a5bb7b"
+                  },
+                  {
+                      "path":  "eviclone_prototype\\alignment.py",
+                      "bytes":  37546,
+                      "sha256":  "99243e8e237c30fdc2a823a978ceb2f971e2c527df0dbb97006772fe20951adc"
+                  },
+                  {
+                      "path":  "eviclone_prototype\\cli.py",
+                      "bytes":  48310,
+                      "sha256":  "fdcbcfe4b23f9aeaf14832a8ed63d932d520b5da73f86e8d05515cf28e19bc6e"
+                  },
+                  {
+                      "path":  "eviclone_prototype\\config.py",
+                      "bytes":  2989,
+                      "sha256":  "036c719aa089917b8d4405b8769c3ee71c0c1a79e5777e0e9fdaf4fafb75a277"
+                  },
+                  {
+                      "path":  "eviclone_prototype\\context_completion.py",
+                      "bytes":  59808,
+                      "sha256":  "3130e5386276fe462ed0acb925689b34e7a50e6f5317adc40d33f4d95b5adc5a"
+                  },
+                  {
+                      "path":  "eviclone_prototype\\dataset.py",
+                      "bytes":  3404,
+                      "sha256":  "c4ff5f76920ad362aaf55bebd8c3f001af44df09f9aa43bd51cdd6e8c36f305b"
+                  },
+                  {
+                      "path":  "eviclone_prototype\\deployment_policy.py",
+                      "bytes":  18334,
+                      "sha256":  "9c30d6bc00b1f75ed8630a72cb71ae5a9797976c23bc828aa79b95a5e7aa3a88"
+                  },
+                  {
+                      "path":  "eviclone_prototype\\dynamic_router.py",
+                      "bytes":  71187,
+                      "sha256":  "f31b08cd261719999cd6a8bf3e2d9694429cf98585aa81b1201be888aa7caf6b"
+                  },
+                  {
+                      "path":  "eviclone_prototype\\evidence.py",
+                      "bytes":  39105,
+                      "sha256":  "41c668373e5f0b6aa54f9b415608439ce04c0a540afcd1fd4ebbd8227a07dd04"
+                  },
+                  {
+                      "path":  "eviclone_prototype\\evidence_contracts.py",
+                      "bytes":  156080,
+                      "sha256":  "10b44579163a237e3ccc6cb61a5675ffadde5abceda0a0237f9718a2d9251f60"
+                  },
+                  {
+                      "path":  "eviclone_prototype\\executable_composition.py",
+                      "bytes":  15584,
+                      "sha256":  "7702ee921fba5fdd8440bcf589ad70eda17b842b5cb7b60a479c950e35b08c85"
+                  },
+                  {
+                      "path":  "eviclone_prototype\\executable_fusion.py",
+                      "bytes":  97583,
+                      "sha256":  "9dad53f49ec4695d73e62d285cf72f77900eeefebb4cb56dd870a093ea202144"
+                  },
+                  {
+                      "path":  "eviclone_prototype\\executable_modules.py",
+                      "bytes":  9983,
+                      "sha256":  "6fd7ff58bdc83741bf7284dc90e2b4349b18b9b7d2f00cc64f7ba92c5f417afd"
+                  },
+                  {
+                      "path":  "eviclone_prototype\\executor.py",
+                      "bytes":  267586,
+                      "sha256":  "48f88e3a68f6e493f1971bfc13bb8f20cc60fe5804ab0a708180105742711884"
+                  },
+                  {
+                      "path":  "eviclone_prototype\\expert_invocation.py",
+                      "bytes":  14142,
+                      "sha256":  "e2a312ed7aa5f01c2b3923aa82abb4edbd4b936174a5d904e4b3640d421daff1"
+                  },
+                  {
+                      "path":  "eviclone_prototype\\functional_blocks.py",
+                      "bytes":  12815,
+                      "sha256":  "fb24b7ad50e718669547b43c08223df5db919b437a0b59851417839b2dde030e"
+                  },
+                  {
+                      "path":  "eviclone_prototype\\heuristics.py",
+                      "bytes":  6731,
+                      "sha256":  "c3c030497eec6e1ef2a2a8568c245ae3917fa1998b2c0c29d01079157e475389"
+                  },
+                  {
+                      "path":  "eviclone_prototype\\llm.py",
+                      "bytes":  4133,
+                      "sha256":  "07a43194426b43481b74cfd5a03ea93dcd1bdb08a2680499cdfe38a41101ee0d"
+                  },
+                  {
+                      "path":  "eviclone_prototype\\pipeline_trace.py",
+                      "bytes":  55562,
+                      "sha256":  "e45a77e014b087cb0ba31bd351db855cad852b8b3adef1e91001d7234732778c"
+                  },
+                  {
+                      "path":  "eviclone_prototype\\preference.py",
+                      "bytes":  43562,
+                      "sha256":  "6ea5a6b7ee4bb60d13192035fc702fca84dc4ac91d79712b2ec607c40286d7ba"
+                  },
+                  {
+                      "path":  "eviclone_prototype\\probe_planner.py",
+                      "bytes":  9506,
+                      "sha256":  "1cf3fc8980435b679dadd8ab87246cc21192b9f44597bc4690fadace00660d73"
+                  },
+                  {
+                      "path":  "eviclone_prototype\\probe_synthesis.py",
+                      "bytes":  22027,
+                      "sha256":  "6af2bd760b6d647607d2586667b6fbc8884dab9636d0f04b49c0bcc10e1cf4de"
+                  },
+                  {
+                      "path":  "eviclone_prototype\\prompts.py",
+                      "bytes":  6206,
+                      "sha256":  "4cf3a02f9029b1a98ba76baff497a6df6d8230d26d308622709e9362f8d7ff31"
+                  },
+                  {
+                      "path":  "eviclone_prototype\\report.py",
+                      "bytes":  68396,
+                      "sha256":  "840b73de6b692d7403e63f02b4c51e654a049825f46ca24262411539c365ea41"
+                  },
+                  {
+                      "path":  "eviclone_prototype\\selective_gate.py",
+                      "bytes":  28618,
+                      "sha256":  "df17cf96945ef1ca6f788f33eaa1b6d742c18194d45486c4dae2275974f4355f"
+                  },
+                  {
+                      "path":  "eviclone_prototype\\splits.py",
+                      "bytes":  10697,
+                      "sha256":  "af9c2d164dac5c0328c603b3e1f607fb1411999ff21c88ebe4711d5f419b2283"
+                  },
+                  {
+                      "path":  "eviclone_prototype\\static_clone.py",
+                      "bytes":  7942,
+                      "sha256":  "a8667b04dd4532ec32a654e843fc68bb36e997a06ced348e748d32acdc6d844f"
+                  },
+                  {
+                      "path":  "eviclone_prototype\\storage.py",
+                      "bytes":  3031,
+                      "sha256":  "6788501284449003b27aa1456f954ea457d1838913864480bd2bfd932be8421d"
+                  },
+                  {
+                      "path":  "README_CN.md",
+                      "bytes":  1830,
+                      "sha256":  "84b8d025cf46b603dfc1397002613e1a51c9ce7dbad4e5beefd65f6b7a178391"
+                  },
+                  {
+                      "path":  "RUN_SMOKE.ps1",
+                      "bytes":  399,
+                      "sha256":  "5dac2f1118ce6d720a00e0c1ae4531cf171793a750985392e73b065562069539"
+                  },
+                  {
+                      "path":  "scripts\\apply_selective_correction_gate.py",
+                      "bytes":  11579,
+                      "sha256":  "1d5fde897570e3d60aac9fab47f4b72fd73a4ff5d268d0a26603362b2af7e507"
+                  },
+                  {
+                      "path":  "scripts\\audit_probe_source_retention_outputs.py",
+                      "bytes":  22834,
+                      "sha256":  "576aa4acb1a247f232802b2815e5acd30701be436b9506d858b463db50292a99"
+                  },
+                  {
+                      "path":  "scripts\\build_executable_trace_gap_audit.py",
+                      "bytes":  16313,
+                      "sha256":  "1db88bed55e47c00136c492f8f56ddd4c89e9fa416ae4bd8c34c527c39c61567"
+                  },
+                  {
+                      "path":  "scripts\\build_probe_execution_manifest_audit.py",
+                      "bytes":  14228,
+                      "sha256":  "24328358e5adb78e5d267f84dec32f0e79248f3be5d14db86d086b60725d9757"
+                  },
+                  {
+                      "path":  "scripts\\build_probe_execution_readiness_audit.py",
+                      "bytes":  17548,
+                      "sha256":  "34fd330707876ae6c99e33a9aa7d072b44e67117f432aad07cb1dee9db409e81"
+                  },
+                  {
+                      "path":  "scripts\\build_probe_source_retention_rerun_queue.py",
+                      "bytes":  16521,
+                      "sha256":  "80f7c58e70fc2237dc939d3623610e640e5ddbc5f32249ebd5ac4324cd01c3c1"
+                  },
+                  {
+                      "path":  "scripts\\build_probe_synthesis_plan.py",
+                      "bytes":  24029,
+                      "sha256":  "b3959a63dc5d5170dde906781ba6626636d1dd6b70cf1836916b2b7c3b3d04ed"
+                  },
+                  {
+                      "path":  "scripts\\build_retained_source_manifest_audit.py",
+                      "bytes":  10273,
+                      "sha256":  "dbd4d3b33e3bc7cbfee877662bb626992023e6d87b0a01e4a13dc8fe2bd3abeb"
+                  },
+                  {
+                      "path":  "scripts\\build_runtime_environment_audit.py",
+                      "bytes":  6148,
+                      "sha256":  "01a67ef20c3942582bae654bdd55bdaad1e70de6f668b32473c1bf7b475ec1c2"
+                  },
+                  {
+                      "path":  "scripts\\build_source_retention_progress_audit.py",
+                      "bytes":  14165,
+                      "sha256":  "3f2780eca69f82c2e3d1cd77c71c3e5a9ecaa4b484e852b999a3b12f239d7907"
+                  },
+                  {
+                      "path":  "scripts\\build_trace_slice_localization_audit.py",
+                      "bytes":  18169,
+                      "sha256":  "86de9b8f401a239c3add48881744f6843d2f63ebd85d9ce98a5e254679bfb267"
+                  },
+                  {
+                      "path":  "scripts\\check_probe_source_retention_experiment.py",
+                      "bytes":  16467,
+                      "sha256":  "c7c1d6b1b2fccb11f3bc555c652a456c29c904f49ccaa1aa86861d5ac7ee97af"
+                  },
+                  {
+                      "path":  "scripts\\check_selective_gate_deployment.py",
+                      "bytes":  30959,
+                      "sha256":  "07c1821b497f38d5340289ca36c6c2d2aa4543687ec9e7764bfa79d23148d67b"
+                  },
+                  {
+                      "path":  "scripts\\run_error_cases_unordered.py",
+                      "bytes":  24149,
+                      "sha256":  "5c85b353c7005c3a9f1bcbe306451a30fa3f5d63b338af420355874ee60160ae"
+                  },
+                  {
+                      "path":  "scripts\\run_probe_synthesis_execution.py",
+                      "bytes":  41540,
+                      "sha256":  "f8c7f3b2ab79edbf361c4d2a1e5515386ac4b286ab146d66a8c4588d95b6281a"
+                  },
+                  {
+                      "path":  "scripts\\run_probe_synthesis_full_pipeline.py",
+                      "bytes":  31794,
+                      "sha256":  "538886d468ae7910901aaf02aaf28bef3a1e5d99854a6bb65888a948a0c47414"
+                  },
+                  {
+                      "path":  "scripts\\run_selective_gate_pipeline.py",
+                      "bytes":  12400,
+                      "sha256":  "e6c473845266b8437dd110d3a0b047d421769645f9fa0d215a4a323944b777cd"
+                  },
+                  {
+                      "path":  "scripts\\verify_probe_source_retention_rerun_queue.py",
+                      "bytes":  18070,
+                      "sha256":  "99a303f05c2d2808e287616e2e5eef286098a05ca0596be1a1231be83d3d67fd"
+                  },
+                  {
+                      "path":  "scripts\\verify_selective_gate_manifest.py",
+                      "bytes":  69743,
+                      "sha256":  "6be1d33ed658919d92b3248085da3c89b43c93ef6e7dcd0497110122a3d7db32"
+                  }
+              ],
+    "missing_files":  [
+
+                      ],
+    "schema_version":  "attest-eviclone-system/v1",
+    "sensitive_findings":  [
+
+                           ],
+    "status":  "clean",
+    "summary":  {
+                    "copied_files":  49,
+                    "missing_files":  0,
+                    "script_count":  19,
+                    "sensitive_findings":  0,
+                    "total_bytes":  1545461
+                }
+}
